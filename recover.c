@@ -50,7 +50,6 @@ int main(int argc, char* argv[])
                 
                 // creating a filename && opening a new file
                 char title[sizeof "000.jpg"];
-                
                 sprintf(title, "%03d.jpg", jpegName);
                 
                 img = fopen(title, "a");
